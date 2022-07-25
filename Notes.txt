@@ -1,0 +1,155 @@
+// Express - framework
+// Middleware
+// Req , Res
+// Routing
+// Return HTML pages (File)
+
+// Server side logic
+// Store products in cart
+// Post pics , like photos
+
+// Mongodb
+// mongoose
+// Use in this project
+
+Sessions & cookies
+Authentication
+
+RDBMS / DBMS
+SQL / NOSQL
+
+Student - Table
+Name Roll Course Batch EMail
+Mukul 11 
+
+
+NOSQL - Mongodb, firebase , dynamodb
+Student - Collection
+{
+    Name : "Mukul",
+    Roll : 11,
+    Course : "DBMS"
+},
+{
+    Name: "Nitin"
+},
+{
+    Name:",
+    Roll:,
+    EMail
+}
+
+{
+    Name: String,
+    Email : String 
+}
+
+cart : [{image:,title:,cost:}]
+
+
+// Front end
+
+// Back end 
+// Cookie - stored on client side 
+// Session - stored on server side
+
+// npm init
+// npm install
+// Templating EJS
+// Dynamic routing
+// MVC
+// REST API
+// npm i ejs
+
+// Model View             Controller
+// Data  What users sees  Connecting models to views
+// Products - id , name ,cost , size
+// User - id , name , orders , email , mob no.
+// Order - id , user , cost , discount
+// Order = [{id:"abc",user:"Mukul",cost:500,discount:10%},{}]
+
+// HTML - EJS,inlcude header and footer
+// correct links in header
+// Controllers for create.js , register , search
+
+
+// Cookie & session & session why stored in database
+
+
+// Flash message
+// req.query , req.url 
+// Authentication
+
+// Hashed password
+password = mukul 
+email 
+name 
+
+redmukulblack
+
+password = H1(password) = H2(result) = dbPassword 
+mukul = abcdef
+mukul = baKJBDkjb 
+// Login 
+email
+password = mukul 
+dbPassword = redmukulblack 
+mukul
+
+m['m']='a' 
+m['u']='x'
+m['k']='c'
+
+// round of hashing = 10
+
+express-flash-message install
+
+muk axc
+
+
+// Saturdays class
+Error page 
+Invalid email or password styling
+
+// IsAuthenticated Middleware
+
+Topic for today
+// res.locals
+// protected routes
+// hash tags
+// request
+// JSON
+Javascript object notation
+// AJAX
+
+Asynchronous Javascript and XML
+
+// Tuesday
+Profile
+Blog
+interview
+notice
+create-post 
+search
+
+// Tuesday To do 
+1. Like and unlike (Using AJAX)
+2. Mongodb (CRUD operations , intro to some Mongodb functions) (findByIdAndUpdate check)
+3. Search Page (based on author , title )
+4. Content Type 
+5. Enctype 
+6. Form validation
+7. req.session.destroy to logout
+8. Refractoring Code
+9. Profile Page
+10. Admin
+Events
+localstorage
+
+regex
+
+// Add path bin to env variable
+// show dbs 
+// use db_name
+// show collections
+// db.posts.find({ hashTags:{$regex : "#good"}}).pretty()

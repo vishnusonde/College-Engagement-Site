@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <script src="/js/singleBlog.js"></script>
+    </head>
+    <body>
+        <h2><%= blog.title%></h2>
+        <p id="blogId" style="visibility: hidden; display: none;"><%= blog._id %></p>
+        <p><%= blog.content %></p>
+        <button onclick="upvoted()">Upvote</button>
+        <p id="upvoteValue"><%= blog.upvoteLists.length %></p>
+        <!-- <button onclick="downvoted()">Downvote</button> -->
+    </body>
+</html>
