@@ -10,7 +10,8 @@ exports.createPost = async (req, res) => {
         title: req.body.title,
         content: req.body.content,
         type: "Blog",
-        author: "vishnu",
+        // author: "vishnu",
+        author: req.session.user.username,
         date: new Date(),
         upvote: 0
     })
@@ -25,7 +26,7 @@ exports.createPost = async (req, res) => {
             title,
             content,
             type: "Blog",
-            author: "vishnu",
+            // author: "vishnu",
 
             author: req.session.user.username,
 
@@ -35,7 +36,8 @@ exports.createPost = async (req, res) => {
             upvoteLists : []
         })
         const posts = await Post.find({});
-        res.render("posts.ejs", {posts: posts});
+        // res.render("posts.ejs", {posts: posts});
+        res.redirect("/blog")
     } catch (err) {
         console.log(err)
     }
